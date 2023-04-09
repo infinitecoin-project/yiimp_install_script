@@ -1,6 +1,6 @@
-# Yiimp_install_scrypt v0.3 (update May, 2022)
+# Yiimp_install_script 
 
-Official Yiimp (used in this script for Yiimp Installation): https://github.com/tpruvot/yiimp
+Used in this script for Yiimp Installation: https://github.com/infinitecoin-project/yiimp
 
 ---
 
