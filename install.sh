@@ -319,6 +319,7 @@
     sudo ufw allow 5755/tcp
     sudo ufw allow 5766/tcp
     sudo ufw allow 5833/tcp
+    sudo ufw allow 5900/tcp
     sudo ufw allow 5933/tcp
     sudo ufw allow 6033/tcp
     sudo ufw allow 5034/tcp
