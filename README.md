@@ -4,7 +4,7 @@ Used in this script for Yiimp Installation: https://github.com/infinitecoin-proj
 
 ---
 
-## Install script for yiimp on Ubuntu Server 16.04 / 18.04 (use Tpruvot's Yiimp)
+## Install script for yiimp on Ubuntu Server 16.04 / 18.04 
 
 USE THIS SCRIPT ON FRESH INSTALL UBUNTU Server 16.04 / 18.04 !
 
