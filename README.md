@@ -20,7 +20,7 @@ Connect on your VPS =>
 - su - pool
 - sudo apt-get install build-essential libssl-dev curl git-core openssh-server
 - git clone https://github.com/infinitecoin-project/yiimp_install_script.git
-- cd yiimp_install_script/
+- cd yiimp_install_script
 - bash install.sh (DO NOT RUN THE SCRIPT AS ROOT or SUDO)
 - At the end, you MUST REBOOT to finalize installation...
 
