@@ -1012,7 +1012,7 @@
     # Make config file
     echo '
     <?php
-    ini_set('"'"'date.timezone'"'"', '"'"'CET'"'"');
+    ini_set('"'"'date.timezone'"'"', '"'"'UTC'"'"');
     define('"'"'YAAMP_LOGS'"'"', '"'"'/var/log/yiimp'"'"');
     define('"'"'YAAMP_HTDOCS'"'"', '"'"'/var/web'"'"');
 
@@ -1028,14 +1028,14 @@
 
     define('"'"'YAAMP_LIMIT_ESTIMATE'"'"', false);
 
-    define('"'"'YAAMP_FEES_SOLO'"'"', 0.5);
-
-    define('"'"'YAAMP_FEES_MINING'"'"', 0.5);
+    define('"'"'YAAMP_FEES_SOLO'"'"', 5);
+    define('"'"'YAAMP_FEES_MINING'"'"', 2);
+    
     define('"'"'YAAMP_FEES_EXCHANGE'"'"', 2);
     define('"'"'YAAMP_FEES_RENTING'"'"', 2);
     define('"'"'YAAMP_TXFEE_RENTING_WD'"'"', 0.002);
 
-    define('"'"'YAAMP_PAYMENTS_FREQ'"'"', 2*60*60);
+    define('"'"'YAAMP_PAYMENTS_FREQ'"'"', 3*60*60);
     define('"'"'YAAMP_PAYMENTS_MINI'"'"', 0.001);
 
     define('"'"'YAAMP_ALLOW_EXCHANGE'"'"', false);
@@ -1094,14 +1094,14 @@
     // Sample fixed pool fees
     $configFixedPoolFees = array(
         '"'"'zr5'"'"' => 2.0,
-        '"'"'scrypt'"'"' => 20.0,
-        '"'"'sha256'"'"' => 5.0,
+        '"'"'scrypt'"'"' => 2.0,
+        '"'"'sha256'"'"' => 2.0,
      );
 
      // Sample fixed pool fees solo
     $configFixedPoolFeesSolo = array(
-        '"'"'zr5'"'"' => 2.0,
-        '"'"'scrypt'"'"' => 20.0,
+        '"'"'zr5'"'"' => 5.0,
+        '"'"'scrypt'"'"' => 5.0,
         '"'"'sha256'"'"' => 5.0,
 
     );
